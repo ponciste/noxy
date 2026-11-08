@@ -58,20 +58,6 @@ sudo python3 noxy.py wipe                      # optional: delete the collected 
 - Runs as your user, never as root. Changes that need root (wipe, VPN) are sudo commands, never buttons: nothing running as your user can erase evidence or drop the VPN on its own.
 - Never executes, imports or installs anything from a sample.
 
-Details: [docs/USAGE.md](docs/USAGE.md#10-security-model).
-
-## Documentation
-
-| | |
-|---|---|
-| [USAGE](docs/USAGE.md) | full manual: sessions, updates, wipe, backups, file transfers, configuration |
-| [LAB-SETUP](docs/LAB-SETUP.md) | what setup changes, Sysmon, Proton VPN, troubleshooting |
-| [HARDENING](docs/HARDENING.md) | VM and host hardening (VMware, Windows firewall, ufw) |
-| [FEATURES](docs/FEATURES.md) | everything noxy does |
-| [METHODOLOGY](docs/METHODOLOGY.md) | what noxy is and is not |
-| [MAINTENANCE](docs/MAINTENANCE.md) | architecture, tests, releases |
-| [CHANGELOG](docs/CHANGELOG.md) | versions |
-
 ## Status
 
 Personal project, built for one analyst and one VM. Not affiliated with REMnux, Proton or Microsoft. Samples and captures never belong in this repository.
