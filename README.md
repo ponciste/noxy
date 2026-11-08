@@ -39,7 +39,7 @@ sudo reboot
 python3 noxy.py setup service                  # starts noxy now and at every login
 ```
 
-Open **http://127.0.0.1:8669/**. Harden the VM and host first: [docs/HARDENING.md](docs/HARDENING.md).
+Open **http://127.0.0.1:8669/**. It's highly recommended to harden your VM and Guest OS first.
 
 ## Daily use
 
