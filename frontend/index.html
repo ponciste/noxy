@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en" data-accent="green">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="noxy-token" content="{{NOXY_TOKEN}}">
+<meta name="noxy-version" content="{{NOXY_VERSION}}">
+<meta name="referrer" content="no-referrer">
+<title>noxy</title>
+<link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/assets/css/noxy.css">
+<script type="module" src="/assets/js/main.js"></script>
+</head>
+<body>
+<div id="boot" class="boot" aria-hidden="true"></div>
+
+<header class="hdr">
+  <canvas id="rain" aria-hidden="true"></canvas>
+  <div class="brand">noxy<span class="cursor">_</span><small>lab companion</small></div>
+  <div class="statusline" id="statusline" aria-live="polite"></div>
+  <button id="restart" class="restart" type="button" aria-label="restart noxy" title="restart noxy"></button>
+</header>
+
+<nav class="keys" id="tabs" role="tablist" aria-label="Views">
+  <button role="tab" data-view="lab">lab</button>
+  <button role="tab" data-view="sessions">sessions</button>
+  <button role="tab" data-view="exec">exec</button>
+  <button role="tab" data-view="files">files</button>
+  <button role="tab" data-view="net">net</button>
+  <button role="tab" data-view="iocs">iocs</button>
+  <button role="tab" data-view="notes">notes</button>
+  <button role="tab" data-view="stats">stats</button>
+  <span class="sp"></span>
+  <button data-action="settings" title="Settings">settings</button>
+</nav>
+
+<main id="view" tabindex="-1"></main>
+
+<footer class="fkeys"><span class="sp"></span><span id="foot-ver"></span></footer>
+
+<aside id="drawer" class="drawer" hidden aria-label="Details"></aside>
+<div id="scrim" class="scrim" hidden></div>
+<div id="toasts" class="toasts" aria-live="polite"></div>
+<noscript><p class="empty">noxy needs JavaScript enabled for 127.0.0.1.</p></noscript>
+</body>
+</html>
