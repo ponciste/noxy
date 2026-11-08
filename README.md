@@ -2,7 +2,7 @@
 
 **A lab companion for a single REMnux analysis VM.** It tells you whether the lab is safe, whether anything ran, and what went over the wire, with the evidence to back it up.
 
-Built for incident responders who check phishing URLs and lure repositories by reading them, not running them, and need to prove afterwards that nothing executed.
+Built for curious cyber security enthusiasts and/or professionals to carry out potentially malicious activity in safety. Want to detonate a phishing URL, cloned a known malicious repository? No problem.
 
 ![lab](docs/screenshots/lab.png)
 
