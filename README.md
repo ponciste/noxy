@@ -31,7 +31,7 @@ Built for curious cyber security enthusiasts and/or professionals to carry out p
 ## Install
 
 ```bash
-git clone https://github.com/<you>/noxy.git ~/noxy && cd ~/noxy
+git clone https://github.com/ponciste/noxy.git ~/noxy && cd ~/noxy
 python3 -m unittest discover -s tests          # all tests must pass
 sudo python3 noxy.py setup lab                 # noxy group, auditd rules, packet capture
 sudo python3 noxy.py setup sysmon              # optional: file creation (Sysmon for Linux)
